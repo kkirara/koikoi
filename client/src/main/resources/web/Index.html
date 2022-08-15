@@ -1,0 +1,80 @@
+<!--<!DOCTYPE html>-->
+<head>
+	<link rel="stylesheet" href="css/mainpng.css">
+	<title>&#127924; koi-koi</title>
+</head>
+<body>
+<div class ="field">
+	<div class ="game">
+		<div class= "bbb">
+			<div class ="otherHand" id="otherHand">
+				<!-- <div class="cardO"><img src="image/hanafuda/003.svg"></div> -->
+				<!-- document.querySelector("body > div > div.game > div > div.otherHand > div:nth-child(1) > img") -->
+			</div>
+			<div class = "board">
+				<div class="deck-col">
+					<div class="deck" id="deck">
+					<img style = "z-index: 1" src="image/hanafuda/png/000.png">
+					<div id="waitdiv"></div>
+					<!-- <img style = "z-index: 2; margin-top: -80%"	src="image/hanafuda/024.svg">					 -->
+					<!-- document.querySelector("body > div > div.game > div > div.board > div.deck-col > div > img:nth-child(2)") -->
+					</div>
+				</div>
+				<div class="table-col">
+					<div class= "bbb">
+						<div class="line" id="table1">
+							<!-- <div class="cardB"><img src="image/hanafuda/054.svg"></div>					 -->
+							<!-- document.querySelector("body > div > div.game > div > div.board > div.table-col > div > div:nth-child(1) > div:nth-child(1) > img") -->
+							<!--document.querySelector("#table1")-->
+						</div>
+						<div class="line" id="table2">
+							<!-- <div class="cardB"><img src="image/hanafuda/074.svg"></div> -->
+							<!-- document.querySelector("body > div > div.game > div > div.board > div.table-col > div > div:nth-child(2) > div:nth-child(1) > img") -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class ="hand" id="hand">
+				<!-- document.querySelector("body > div > div.game > div > div.hand > div:nth-child(5) > img") -->
+				<!-- <div class="card"><img class="сardimg" src="image/hanafuda/124.svg"></div> -->
+			</div>
+		</div>
+	</div>
+	<div class="score">
+	    <div class="round">
+			<p>score game:</p>
+			<p id="round">round: 12</p>
+			<!-- document.querySelector("body > div > div.score > div.round > p") -->
+		</div>
+	    <div class="stat" id="other">			
+			<div class="totalScore">
+			<!-- <p>total score: 4545</p> -->
+			<!-- document.querySelector("#other > div.totalScore > p") -->
+			</div>
+			<div class="OpenHand">
+				<div class="cardset">
+				<!-- <div class="card"><img src="image/hanafuda/124.svg"></div> -->
+				<!-- document.querySelector("#other > div.OpenHand > div:nth-child(1) > div:nth-child(1) > img") -->
+				</div>
+				<div class="cardset">
+				<!-- <div class="card"><img src="image/hanafuda//061.svg"></div> -->
+				<!-- document.querySelector("#other > div.OpenHand > div:nth-child(2) > div:nth-child(9) > img") -->
+				</div>
+			</div>
+		</div>		
+		<div class="stat" id="me">
+			<div class="totalScore">
+			<!-- <p>total score: 4545</p> -->
+			<!-- document.querySelector("#me > div.totalScore > p") -->
+			</div>
+			<div class="OpenHand">
+				<!-- <div class="card"><img src="image/hanafuda/124.svg"></div> -->
+				<!-- document.querySelector("#me > div.OpenHand > div:nth-child(4) > img") -->
+			</div>                          
+		</div>                              
+	</div>	
+</div>
+<!--<script type="text/javascript" src="scala-js/main.js"></script>-->
+<script type="text/javascript" src="./../../../../target/scala-2.13/koi-koi-client-fastopt/main.js"></script>
+</body>
+</html>
